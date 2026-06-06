@@ -7,6 +7,19 @@ import authorImagesData from '../../data/author-images.json';
 import authorsDataDetails from '../../data/authors-data.json';
 import authorsData from '../../data/authors.json';
 import booksData from '../../data/books.json';
+import type { Author } from '../../types/author';
+import type { Book } from '../../types/book';
+
+const authorsForSeed = (authorsData as Author[]).map((author) => ({
+	id: author.id,
+	fullName: author.fullName,
+	commonName: author.name,
+}));
+
+const booksForSeed = (booksData as Book[]).map((book) => ({
+	book: book.title,
+	authors: book.authorIds,
+}));
 
 type SeedResult = {
 	inserted: number;
@@ -48,7 +61,7 @@ export default function SeedPage() {
 		setLastResult(null);
 
 		try {
-			const authors = await seedAuthors({ authors: authorsData });
+			const authors = await seedAuthors({ authors: authorsForSeed });
 			setLastResult({ phase: 'authors', authors });
 		} catch (error) {
 			setLastResult({
@@ -106,7 +119,7 @@ export default function SeedPage() {
 		setLastResult(null);
 
 		try {
-			const books = await seedBooks({ books: booksData });
+			const books = await seedBooks({ books: booksForSeed });
 			setLastResult({ phase: 'books', books });
 		} catch (error) {
 			setLastResult({
@@ -123,8 +136,8 @@ export default function SeedPage() {
 		setLastResult(null);
 
 		try {
-			const authors = await seedAuthors({ authors: authorsData });
-			const books = await seedBooks({ books: booksData });
+			const authors = await seedAuthors({ authors: authorsForSeed });
+			const books = await seedBooks({ books: booksForSeed });
 			setLastResult({ phase: 'all', authors, books });
 		} catch (error) {
 			setLastResult({
@@ -141,11 +154,11 @@ export default function SeedPage() {
 		setLastResult(null);
 
 		try {
-			const authors = await seedAuthors({ authors: authorsData });
+			const authors = await seedAuthors({ authors: authorsForSeed });
 			const authorDetails = await seedAuthorDetails({
 				authors: authorsDataDetails,
 			});
-			const books = await seedBooks({ books: booksData });
+			const books = await seedBooks({ books: booksForSeed });
 			setLastResult({
 				phase: 'allWithDetails',
 				authors,
@@ -187,7 +200,7 @@ export default function SeedPage() {
 				<section className="flex w-full flex-col gap-4 rounded-lg border border-neutral-200 p-6">
 					<h2 className="text-xl font-medium">Basic seed</h2>
 					<p className="text-neutral-600">
-						{authorsData.length} authors and {booksData.length} books in JSON
+						{authorsForSeed.length} authors and {booksForSeed.length} books in JSON
 						files. Existing records are skipped by slug.
 					</p>
 

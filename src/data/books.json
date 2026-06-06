@@ -1,206 +1,360 @@
 [
 	{
-		"book": "The Republic",
-		"authors": ["plato"]
+		"id": "the-republic",
+		"title": "The Republic",
+		"authorIds": [
+			"plato"
+		]
 	},
 	{
-		"book": "Meno",
-		"authors": ["plato"]
+		"id": "meno",
+		"title": "Meno",
+		"authorIds": [
+			"plato"
+		]
 	},
 	{
-		"book": "Symposium",
-		"authors": ["plato"]
+		"id": "symposium",
+		"title": "Symposium",
+		"authorIds": [
+			"plato"
+		]
 	},
 	{
-		"book": "Nicomachean Ethics",
-		"authors": ["aristotle"]
+		"id": "nicomachean-ethics",
+		"title": "Nicomachean Ethics",
+		"authorIds": [
+			"aristotle"
+		]
 	},
 	{
-		"book": "Politics",
-		"authors": ["aristotle"]
+		"id": "politics",
+		"title": "Politics",
+		"authorIds": [
+			"aristotle"
+		]
 	},
 	{
-		"book": "Metaphysics",
-		"authors": ["aristotle"]
+		"id": "metaphysics",
+		"title": "Metaphysics",
+		"authorIds": [
+			"aristotle"
+		]
 	},
 	{
-		"book": "Meditations",
-		"authors": ["marcus-aurelius"]
+		"id": "meditations",
+		"title": "Meditations",
+		"authorIds": [
+			"marcus-aurelius"
+		]
 	},
 	{
-		"book": "Enchiridion",
-		"authors": ["epictetus"]
+		"id": "enchiridion",
+		"title": "Enchiridion",
+		"authorIds": [
+			"epictetus"
+		]
 	},
 	{
-		"book": "Letter to Menoeceus",
-		"authors": ["epicurus"]
+		"id": "letter-to-menoeceus",
+		"title": "Letter to Menoeceus",
+		"authorIds": [
+			"epicurus"
+		]
 	},
 	{
-		"book": "On the Nature of Things",
-		"authors": ["lucretius"]
+		"id": "on-the-nature-of-things",
+		"title": "On the Nature of Things",
+		"authorIds": [
+			"lucretius"
+		]
 	},
 	{
-		"book": "The Consolation of Philosophy",
-		"authors": ["boethius"]
+		"id": "the-consolation-of-philosophy",
+		"title": "The Consolation of Philosophy",
+		"authorIds": [
+			"boethius"
+		]
 	},
 	{
-		"book": "Confessions",
-		"authors": ["augustine"]
+		"id": "confessions",
+		"title": "Confessions",
+		"authorIds": [
+			"augustine"
+		]
 	},
 	{
-		"book": "Proslogion",
-		"authors": ["anselm"]
+		"id": "proslogion",
+		"title": "Proslogion",
+		"authorIds": [
+			"anselm"
+		]
 	},
 	{
-		"book": "Summa Theologica",
-		"authors": ["aquinas"]
+		"id": "summa-theologica",
+		"title": "Summa Theologica",
+		"authorIds": [
+			"aquinas"
+		]
 	},
 	{
-		"book": "The Prince",
-		"authors": ["machiavelli"]
+		"id": "the-prince",
+		"title": "The Prince",
+		"authorIds": [
+			"machiavelli"
+		]
 	},
 	{
-		"book": "Leviathan",
-		"authors": ["hobbes"]
+		"id": "leviathan",
+		"title": "Leviathan",
+		"authorIds": [
+			"hobbes"
+		]
 	},
 	{
-		"book": "Meditations on First Philosophy",
-		"authors": ["descartes"]
+		"id": "meditations-on-first-philosophy",
+		"title": "Meditations on First Philosophy",
+		"authorIds": [
+			"descartes"
+		]
 	},
 	{
-		"book": "Ethics",
-		"authors": ["spinoza"]
+		"id": "ethics",
+		"title": "Ethics",
+		"authorIds": [
+			"spinoza"
+		]
 	},
 	{
-		"book": "Monadology",
-		"authors": ["leibniz"]
+		"id": "monadology",
+		"title": "Monadology",
+		"authorIds": [
+			"leibniz"
+		]
 	},
 	{
-		"book": "An Essay Concerning Human Understanding",
-		"authors": ["locke"]
+		"id": "an-essay-concerning-human-understanding",
+		"title": "An Essay Concerning Human Understanding",
+		"authorIds": [
+			"locke"
+		]
 	},
 	{
-		"book": "Two Treatises of Government",
-		"authors": ["locke"]
+		"id": "two-treatises-of-government",
+		"title": "Two Treatises of Government",
+		"authorIds": [
+			"locke"
+		]
 	},
 	{
-		"book": "An Enquiry Concerning Human Understanding",
-		"authors": ["hume"]
+		"id": "an-enquiry-concerning-human-understanding",
+		"title": "An Enquiry Concerning Human Understanding",
+		"authorIds": [
+			"hume"
+		]
 	},
 	{
-		"book": "The Social Contract",
-		"authors": ["rousseau"]
+		"id": "the-social-contract",
+		"title": "The Social Contract",
+		"authorIds": [
+			"rousseau"
+		]
 	},
 	{
-		"book": "Critique of Pure Reason",
-		"authors": ["kant"]
+		"id": "critique-of-pure-reason",
+		"title": "Critique of Pure Reason",
+		"authorIds": [
+			"kant"
+		]
 	},
 	{
-		"book": "Groundwork of the Metaphysics of Morals",
-		"authors": ["kant"]
+		"id": "groundwork-of-the-metaphysics-of-morals",
+		"title": "Groundwork of the Metaphysics of Morals",
+		"authorIds": [
+			"kant"
+		]
 	},
 	{
-		"book": "Phenomenology of Spirit",
-		"authors": ["hegel"]
+		"id": "phenomenology-of-spirit",
+		"title": "Phenomenology of Spirit",
+		"authorIds": [
+			"hegel"
+		]
 	},
 	{
-		"book": "The World as Will and Representation",
-		"authors": ["schopenhauer"]
+		"id": "the-world-as-will-and-representation",
+		"title": "The World as Will and Representation",
+		"authorIds": [
+			"schopenhauer"
+		]
 	},
 	{
-		"book": "Fear and Trembling",
-		"authors": ["kierkegaard"]
+		"id": "fear-and-trembling",
+		"title": "Fear and Trembling",
+		"authorIds": [
+			"kierkegaard"
+		]
 	},
 	{
-		"book": "On Liberty",
-		"authors": ["mill"]
+		"id": "on-liberty",
+		"title": "On Liberty",
+		"authorIds": [
+			"mill"
+		]
 	},
 	{
-		"book": "Utilitarianism",
-		"authors": ["mill"]
+		"id": "utilitarianism",
+		"title": "Utilitarianism",
+		"authorIds": [
+			"mill"
+		]
 	},
 	{
-		"book": "The Communist Manifesto",
-		"authors": ["marx", "engels"]
+		"id": "the-communist-manifesto",
+		"title": "The Communist Manifesto",
+		"authorIds": [
+			"marx",
+			"engels"
+		]
 	},
 	{
-		"book": "Beyond Good and Evil",
-		"authors": ["nietzsche"]
+		"id": "beyond-good-and-evil",
+		"title": "Beyond Good and Evil",
+		"authorIds": [
+			"nietzsche"
+		]
 	},
 	{
-		"book": "Thus Spoke Zarathustra",
-		"authors": ["nietzsche"]
+		"id": "thus-spoke-zarathustra",
+		"title": "Thus Spoke Zarathustra",
+		"authorIds": [
+			"nietzsche"
+		]
 	},
 	{
-		"book": "On the Genealogy of Morality",
-		"authors": ["nietzsche"]
+		"id": "on-the-genealogy-of-morality",
+		"title": "On the Genealogy of Morality",
+		"authorIds": [
+			"nietzsche"
+		]
 	},
 	{
-		"book": "Pragmatism",
-		"authors": ["william-james"]
+		"id": "pragmatism",
+		"title": "Pragmatism",
+		"authorIds": [
+			"william-james"
+		]
 	},
 	{
-		"book": "The Problems of Philosophy",
-		"authors": ["russell"]
+		"id": "the-problems-of-philosophy",
+		"title": "The Problems of Philosophy",
+		"authorIds": [
+			"russell"
+		]
 	},
 	{
-		"book": "Tractatus Logico-Philosophicus",
-		"authors": ["wittgenstein"]
+		"id": "tractatus-logico-philosophicus",
+		"title": "Tractatus Logico-Philosophicus",
+		"authorIds": [
+			"wittgenstein"
+		]
 	},
 	{
-		"book": "Philosophical Investigations",
-		"authors": ["wittgenstein"]
+		"id": "philosophical-investigations",
+		"title": "Philosophical Investigations",
+		"authorIds": [
+			"wittgenstein"
+		]
 	},
 	{
-		"book": "Being and Time",
-		"authors": ["heidegger"]
+		"id": "being-and-time",
+		"title": "Being and Time",
+		"authorIds": [
+			"heidegger"
+		]
 	},
 	{
-		"book": "Existentialism is a Humanism",
-		"authors": ["sartre"]
+		"id": "existentialism-is-a-humanism",
+		"title": "Existentialism is a Humanism",
+		"authorIds": [
+			"sartre"
+		]
 	},
 	{
-		"book": "Being and Nothingness",
-		"authors": ["sartre"]
+		"id": "being-and-nothingness",
+		"title": "Being and Nothingness",
+		"authorIds": [
+			"sartre"
+		]
 	},
 	{
-		"book": "The Myth of Sisyphus",
-		"authors": ["camus"]
+		"id": "the-myth-of-sisyphus",
+		"title": "The Myth of Sisyphus",
+		"authorIds": [
+			"camus"
+		]
 	},
 	{
-		"book": "The Second Sex",
-		"authors": ["beauvoir"]
+		"id": "the-second-sex",
+		"title": "The Second Sex",
+		"authorIds": [
+			"beauvoir"
+		]
 	},
 	{
-		"book": "Phenomenology of Perception",
-		"authors": ["merleau-ponty"]
+		"id": "phenomenology-of-perception",
+		"title": "Phenomenology of Perception",
+		"authorIds": [
+			"merleau-ponty"
+		]
 	},
 	{
-		"book": "The Human Condition",
-		"authors": ["arendt"]
+		"id": "the-human-condition",
+		"title": "The Human Condition",
+		"authorIds": [
+			"arendt"
+		]
 	},
 	{
-		"book": "The Logic of Scientific Discovery",
-		"authors": ["popper"]
+		"id": "the-logic-of-scientific-discovery",
+		"title": "The Logic of Scientific Discovery",
+		"authorIds": [
+			"popper"
+		]
 	},
 	{
-		"book": "The Structure of Scientific Revolutions",
-		"authors": ["kuhn"]
+		"id": "the-structure-of-scientific-revolutions",
+		"title": "The Structure of Scientific Revolutions",
+		"authorIds": [
+			"kuhn"
+		]
 	},
 	{
-		"book": "A Theory of Justice",
-		"authors": ["rawls"]
+		"id": "a-theory-of-justice",
+		"title": "A Theory of Justice",
+		"authorIds": [
+			"rawls"
+		]
 	},
 	{
-		"book": "Anarchy, State and Utopia",
-		"authors": ["nozick"]
+		"id": "anarchy-state-and-utopia",
+		"title": "Anarchy, State and Utopia",
+		"authorIds": [
+			"nozick"
+		]
 	},
 	{
-		"book": "Discipline and Punish",
-		"authors": ["foucault"]
+		"id": "discipline-and-punish",
+		"title": "Discipline and Punish",
+		"authorIds": [
+			"foucault"
+		]
 	},
 	{
-		"book": "Practical Ethics",
-		"authors": ["singer"]
+		"id": "practical-ethics",
+		"title": "Practical Ethics",
+		"authorIds": [
+			"singer"
+		]
 	}
 ]

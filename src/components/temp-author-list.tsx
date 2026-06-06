@@ -1,13 +1,11 @@
 'use client';
 
-import { useQuery } from 'convex/react';
-import { useMemo } from 'react';
 import {
 	CopyJsonToolbar,
 	type CopyFieldDefinition,
 } from '@/components/copy-json-toolbar';
-import { api } from '../../convex/_generated/api';
-import { Doc } from '../../convex/_generated/dataModel';
+import { listAuthors } from '@/lib/authors';
+import type { Author } from '@/types/author';
 
 const AUTHOR_COPY_FIELDS: CopyFieldDefinition[] = [
 	{ key: 'id', label: 'Slug ID' },
@@ -20,31 +18,8 @@ const AUTHOR_COPY_FIELDS: CopyFieldDefinition[] = [
 	{ key: 'imageUrl', label: 'Image URL' },
 ];
 
-type Book = Doc<'books'>;
-type Author = Doc<'authors'>;
-
 export default function TempAuthorList() {
-	const books = useQuery(api.books.list);
-	const authors = useQuery(api.authors.list);
-
-	const booksMap = useMemo(() => {
-		return books?.reduce(
-			(acc, book) => {
-				book.authorIds.forEach((authorId) => {
-					if (!acc[authorId]) {
-						acc[authorId] = [];
-					}
-					acc[authorId].push(book);
-				});
-				return acc;
-			},
-			{} as Record<string, Book[]>
-		);
-	}, [books]);
-
-	if (books === undefined || authors === undefined) {
-		return <div>Loading...</div>;
-	}
+	const authors = listAuthors();
 
 	function AuthorAvatar({ author }: { author: Author }) {
 		if (author.imageUrl) {
@@ -79,8 +54,8 @@ export default function TempAuthorList() {
 
 					<p className="text-neutral-600 text-sm">{author.bio}</p>
 					{/* <ul className="italic text-neutral-600 text-sm space-y-2">
-						{booksMap?.[author._id]?.map((book) => (
-							<li key={book._id}>{book.title}</li>
+						{booksMap?.[author.id]?.map((book) => (
+							<li key={book.id}>{book.title}</li>
 						))}
 					</ul> */}
 				</div>
@@ -91,9 +66,9 @@ export default function TempAuthorList() {
 	return (
 		<div className="w-full flex flex-col gap-4">
 			<div className="overflow-scroll flex gap-6 scrollbar-none">
-				{authors?.map((author) => (
+				{authors.map((author) => (
 					<AuthorDetails
-						key={author._id}
+						key={author.id}
 						author={author}
 					/>
 				))}

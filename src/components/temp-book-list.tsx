@@ -1,13 +1,14 @@
 'use client';
 
-import { useQuery } from 'convex/react';
 import { useMemo } from 'react';
 import {
 	CopyJsonToolbar,
 	type CopyFieldDefinition,
 } from '@/components/copy-json-toolbar';
-import { api } from '../../convex/_generated/api';
-import { Doc } from '../../convex/_generated/dataModel';
+import { listAuthors } from '@/lib/authors';
+import { listBooks } from '@/lib/books';
+import type { Author } from '@/types/author';
+import type { Book } from '@/types/book';
 
 const BOOK_COPY_FIELDS: CopyFieldDefinition[] = [
 	{ key: 'id', label: 'Slug ID' },
@@ -24,36 +25,29 @@ const BOOK_COPY_FIELDS: CopyFieldDefinition[] = [
 	{ key: 'historicalContext', label: 'Historical context' },
 ];
 
-type Book = Doc<'books'>;
-type Author = Doc<'authors'>;
-
 export default function TempBookList() {
-	const books = useQuery(api.books.list);
-	const authors = useQuery(api.authors.list);
+	const books = listBooks();
+	const authors = listAuthors();
 
 	const authorMap = useMemo(() => {
-		return authors?.reduce(
+		return authors.reduce(
 			(acc, author) => {
-				acc[author._id] = author;
+				acc[author.id] = author;
 				return acc;
 			},
 			{} as Record<string, Author>
 		);
 	}, [authors]);
 
-	if (books === undefined || authors === undefined) {
-		return <div>Loading...</div>;
-	}
-
 	function BookDetails({ book }: { book: Book }) {
 		return (
 			<div className="w-48 shrink-0 flex flex-col gap-4">
 				<div className="size-48 bg-neutral-100">
-					<div className="flex flex-col items-center justify-center w-full h-full gap-2 text-center px-2">
+					<div className="flex flex-col items-center justify-center w-full h-full gap-2 text-center px-3">
 						<h3 className="font-medium text-lg">{book.title}</h3>
 						<p className="italic text-neutral-500 text-sm">
 							{book.authorIds
-								.map((authorId) => authorMap?.[authorId.toString()]?.name)
+								.map((authorId) => authorMap[authorId]?.name)
 								.join(', ')}
 						</p>
 					</div>
@@ -65,9 +59,9 @@ export default function TempBookList() {
 	return (
 		<div className="w-full flex flex-col gap-4">
 			<div className="overflow-scroll flex gap-6 scrollbar-none">
-				{books?.map((book) => (
+				{books.map((book) => (
 					<BookDetails
-						key={book._id}
+						key={book.id}
 						book={book}
 					/>
 				))}

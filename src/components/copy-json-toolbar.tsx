@@ -18,7 +18,7 @@ export type CopyFieldDefinition = {
 	label: string;
 };
 
-type CopyJsonToolbarProps<T extends { _id: string }> = {
+type CopyJsonToolbarProps<T extends { id: string }> = {
 	items: T[];
 	fields: CopyFieldDefinition[];
 };
@@ -26,12 +26,12 @@ type CopyJsonToolbarProps<T extends { _id: string }> = {
 /**
  * Builds a JSON-serializable array of objects with Convex _id and selected fields.
  */
-function buildCopyPayload<T extends { _id: string }>(
+function buildCopyPayload<T extends { id: string }>(
 	items: T[],
 	fieldKeys: readonly string[]
 ): Record<string, unknown>[] {
 	return items.map((item) => {
-		const result: Record<string, unknown> = { _id: item._id };
+		const result: Record<string, unknown> = { id: item.id };
 		for (const key of fieldKeys) {
 			if (key in item) {
 				result[key] = item[key as keyof T];
@@ -44,7 +44,7 @@ function buildCopyPayload<T extends { _id: string }>(
 /**
  * Copy controls for exporting list data as JSON with configurable fields.
  */
-export function CopyJsonToolbar<T extends { _id: string }>({
+export function CopyJsonToolbar<T extends { id: string }>({
 	items,
 	fields,
 }: CopyJsonToolbarProps<T>) {
