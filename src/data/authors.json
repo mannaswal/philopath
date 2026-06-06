@@ -1,0 +1,207 @@
+[
+	{
+		"id": "plato",
+		"fullName": "Plato",
+		"commonName": "Plato"
+	},
+	{
+		"id": "aristotle",
+		"fullName": "Aristotle",
+		"commonName": "Aristotle"
+	},
+	{
+		"id": "marcus-aurelius",
+		"fullName": "Marcus Aurelius",
+		"commonName": "Marcus Aurelius"
+	},
+	{
+		"id": "epictetus",
+		"fullName": "Epictetus",
+		"commonName": "Epictetus"
+	},
+	{
+		"id": "epicurus",
+		"fullName": "Epicurus",
+		"commonName": "Epicurus"
+	},
+	{
+		"id": "lucretius",
+		"fullName": "Lucretius",
+		"commonName": "Lucretius"
+	},
+	{
+		"id": "boethius",
+		"fullName": "Boethius",
+		"commonName": "Boethius"
+	},
+	{
+		"id": "augustine",
+		"fullName": "Augustine of Hippo",
+		"commonName": "Augustine"
+	},
+	{
+		"id": "anselm",
+		"fullName": "Anselm of Canterbury",
+		"commonName": "Anselm"
+	},
+	{
+		"id": "aquinas",
+		"fullName": "Thomas Aquinas",
+		"commonName": "Aquinas"
+	},
+	{
+		"id": "machiavelli",
+		"fullName": "Niccolò Machiavelli",
+		"commonName": "Machiavelli"
+	},
+	{
+		"id": "hobbes",
+		"fullName": "Thomas Hobbes",
+		"commonName": "Hobbes"
+	},
+	{
+		"id": "descartes",
+		"fullName": "René Descartes",
+		"commonName": "Descartes"
+	},
+	{
+		"id": "spinoza",
+		"fullName": "Baruch Spinoza",
+		"commonName": "Spinoza"
+	},
+	{
+		"id": "leibniz",
+		"fullName": "Gottfried Wilhelm Leibniz",
+		"commonName": "Leibniz"
+	},
+	{
+		"id": "locke",
+		"fullName": "John Locke",
+		"commonName": "Locke"
+	},
+	{
+		"id": "hume",
+		"fullName": "David Hume",
+		"commonName": "Hume"
+	},
+	{
+		"id": "rousseau",
+		"fullName": "Jean-Jacques Rousseau",
+		"commonName": "Rousseau"
+	},
+	{
+		"id": "kant",
+		"fullName": "Immanuel Kant",
+		"commonName": "Kant"
+	},
+	{
+		"id": "hegel",
+		"fullName": "Georg Wilhelm Friedrich Hegel",
+		"commonName": "Hegel"
+	},
+	{
+		"id": "schopenhauer",
+		"fullName": "Arthur Schopenhauer",
+		"commonName": "Schopenhauer"
+	},
+	{
+		"id": "kierkegaard",
+		"fullName": "Søren Kierkegaard",
+		"commonName": "Kierkegaard"
+	},
+	{
+		"id": "mill",
+		"fullName": "John Stuart Mill",
+		"commonName": "Mill"
+	},
+	{
+		"id": "marx",
+		"fullName": "Karl Marx",
+		"commonName": "Marx"
+	},
+	{
+		"id": "engels",
+		"fullName": "Friedrich Engels",
+		"commonName": "Engels"
+	},
+	{
+		"id": "nietzsche",
+		"fullName": "Friedrich Nietzsche",
+		"commonName": "Nietzsche"
+	},
+	{
+		"id": "william-james",
+		"fullName": "William James",
+		"commonName": "William James"
+	},
+	{
+		"id": "russell",
+		"fullName": "Bertrand Russell",
+		"commonName": "Russell"
+	},
+	{
+		"id": "wittgenstein",
+		"fullName": "Ludwig Wittgenstein",
+		"commonName": "Wittgenstein"
+	},
+	{
+		"id": "heidegger",
+		"fullName": "Martin Heidegger",
+		"commonName": "Heidegger"
+	},
+	{
+		"id": "sartre",
+		"fullName": "Jean-Paul Sartre",
+		"commonName": "Sartre"
+	},
+	{
+		"id": "camus",
+		"fullName": "Albert Camus",
+		"commonName": "Camus"
+	},
+	{
+		"id": "beauvoir",
+		"fullName": "Simone de Beauvoir",
+		"commonName": "Beauvoir"
+	},
+	{
+		"id": "merleau-ponty",
+		"fullName": "Maurice Merleau-Ponty",
+		"commonName": "Merleau-Ponty"
+	},
+	{
+		"id": "arendt",
+		"fullName": "Hannah Arendt",
+		"commonName": "Arendt"
+	},
+	{
+		"id": "popper",
+		"fullName": "Karl Popper",
+		"commonName": "Popper"
+	},
+	{
+		"id": "kuhn",
+		"fullName": "Thomas Kuhn",
+		"commonName": "Kuhn"
+	},
+	{
+		"id": "rawls",
+		"fullName": "John Rawls",
+		"commonName": "Rawls"
+	},
+	{
+		"id": "nozick",
+		"fullName": "Robert Nozick",
+		"commonName": "Nozick"
+	},
+	{
+		"id": "foucault",
+		"fullName": "Michel Foucault",
+		"commonName": "Foucault"
+	},
+	{
+		"id": "singer",
+		"fullName": "Peter Singer",
+		"commonName": "Singer"
+	}
+]

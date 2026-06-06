@@ -1,0 +1,288 @@
+[
+	{
+		"id": "plato",
+		"birthYear": -427,
+		"deathYear": -347,
+		"regions": ["Ancient Greece"],
+		"bio": "A student of Socrates and teacher of Aristotle, Plato founded the Academy of Athens. He wrote in dialogue form, exploring themes of justice, reality, and knowledge, famously formulating the Theory of Forms."
+	},
+	{
+		"id": "aristotle",
+		"birthYear": -384,
+		"deathYear": -322,
+		"regions": ["Ancient Greece"],
+		"bio": "A towering figure who studied under Plato, Aristotle pioneered formal logic, biology, and zoology. His ethics focus on virtue and human flourishing (eudaimonia), believing all things have a natural purpose."
+	},
+	{
+		"id": "marcus-aurelius",
+		"birthYear": 121,
+		"deathYear": 180,
+		"regions": ["Roman Empire"],
+		"bio": "Roman Emperor from 161 to 180 AD, Marcus Aurelius was one of the most famous Stoic philosophers. His private journal, Meditations, recorded his personal struggles to maintain duty and resilience in times of crisis."
+	},
+	{
+		"id": "epictetus",
+		"birthYear": 50,
+		"deathYear": 135,
+		"regions": ["Roman Empire"],
+		"bio": "Born a slave in Hierapolis, Epictetus obtained his freedom and taught Stoic philosophy in Rome and Greece. He taught that peace of mind is achieved by focusing only on what is within our power to control."
+	},
+	{
+		"id": "epicurus",
+		"birthYear": -341,
+		"deathYear": -270,
+		"regions": ["Ancient Greece"],
+		"bio": "Epicurus founded the Garden school of philosophy in Athens, promoting a philosophy focused on peace of mind, friendship, and the avoidance of pain as the highest good, rather than lavish sensory pleasure."
+	},
+	{
+		"id": "lucretius",
+		"birthYear": -99,
+		"deathYear": -55,
+		"regions": ["Roman Republic"],
+		"bio": "A Roman poet and Epicurean philosopher, Lucretius is famous for his didactic poem On the Nature of Things, which explains the universe and human soul through atomic theory to dispel the fear of the gods."
+	},
+	{
+		"id": "boethius",
+		"birthYear": 477,
+		"deathYear": 524,
+		"regions": ["Italy (Ostrogothic Kingdom)"],
+		"bio": "A Roman senator and consul, Boethius became a key intellectual bridge between antiquity and the Middle Ages. He wrote his famous consolation while in prison awaiting execution for treason."
+	},
+	{
+		"id": "augustine",
+		"birthYear": 354,
+		"deathYear": 430,
+		"regions": ["North Africa (Roman Empire)"],
+		"bio": "A prominent early Christian theologian and philosopher from Numidia, Augustine of Hippo merged classical Greek philosophy with biblical teachings, deeply influencing Western Christianity and political theory."
+	},
+	{
+		"id": "anselm",
+		"birthYear": 1033,
+		"deathYear": 1109,
+		"regions": ["England", "France"],
+		"bio": "A Benedictine monk and Archbishop of Canterbury, Anselm is recognized as the founder of Scholasticism. He is highly famous for formulating the ontological argument for the existence of God in his work Proslogion."
+	},
+	{
+		"id": "aquinas",
+		"birthYear": 1225,
+		"deathYear": 1274,
+		"regions": ["Italy"],
+		"bio": "A Dominican friar and Catholic priest, Aquinas synthesized Aristotelian philosophy with Christian theology. His work represents the pinnacle of scholastic thought, offering famous logical proofs for God's existence."
+	},
+	{
+		"id": "machiavelli",
+		"birthYear": 1469,
+		"deathYear": 1527,
+		"regions": ["Florence (Italy)"],
+		"bio": "A Florentine diplomat, politician, and philosopher, Machiavelli is a founder of modern political science. His works realistically assess the exercise of political authority and state power."
+	},
+	{
+		"id": "hobbes",
+		"birthYear": 1588,
+		"deathYear": 1679,
+		"regions": ["England"],
+		"bio": "An English philosopher who developed the social contract theory, Hobbes argued that humans are naturally self-interested, making an absolute sovereign necessary to avoid chaos and maintain civic peace."
+	},
+	{
+		"id": "descartes",
+		"birthYear": 1596,
+		"deathYear": 1650,
+		"regions": ["France"],
+		"bio": "Considered the father of modern Western philosophy, Descartes laid the groundwork for rationalism. He sought absolute certainty by doubting everything, famously concluding 'I think, therefore I am.'"
+	},
+	{
+		"id": "spinoza",
+		"birthYear": 1632,
+		"deathYear": 1677,
+		"regions": ["Netherlands"],
+		"bio": "A Dutch philosopher of Jewish heritage, Spinoza was excommunicated as a heretic for his radical pantheist views, which identified God with the natural universe and denied a transcendent personal deity."
+	},
+	{
+		"id": "leibniz",
+		"birthYear": 1646,
+		"deathYear": 1716,
+		"regions": ["Germany"],
+		"bio": "A universal genius, Leibniz co-invented calculus alongside Newton and developed a rationalist metaphysics of basic spiritual substances called 'monads', infamously arguing this is the best of all possible worlds."
+	},
+	{
+		"id": "locke",
+		"birthYear": 1632,
+		"deathYear": 1704,
+		"regions": ["England"],
+		"bio": "The founder of modern empiricism, Locke argued the human mind starts as a blank slate (tabula rasa). His political theories of natural rights and limited government heavily shaped modern liberal democracies."
+	},
+	{
+		"id": "hume",
+		"birthYear": 1711,
+		"deathYear": 1776,
+		"regions": ["Scotland"],
+		"bio": "A Scottish Enlightenment radical, Hume pushed empiricism to skeptical conclusions, arguing that reason is a slave to passion and that humans associate cause and effect purely out of habit, not scientific proof."
+	},
+	{
+		"id": "rousseau",
+		"birthYear": 1712,
+		"deathYear": 1778,
+		"regions": ["Geneva", "France"],
+		"bio": "A philosopher whose political theories ignited the French Revolution, Rousseau believed that humans are noble savages corrupted by civil society and property, advocating for rule by the general will."
+	},
+	{
+		"id": "kant",
+		"birthYear": 1724,
+		"deathYear": 1804,
+		"regions": ["Prussia (Germany)"],
+		"bio": "One of history's most critical philosophers, Kant synthesized rationalism and empiricism. He argued that the mind shapes our sensory experiences, and asserted an absolute, duty-based moral code."
+	},
+	{
+		"id": "hegel",
+		"birthYear": 1770,
+		"deathYear": 1831,
+		"regions": ["Germany"],
+		"bio": "Hegel created a vast system of absolute idealism, explaining history as the unfolding progression of consciousness (Spirit) overcoming contradictions through a dynamic, dialectical process."
+	},
+	{
+		"id": "schopenhauer",
+		"birthYear": 1788,
+		"deathYear": 1860,
+		"regions": ["Germany"],
+		"bio": "A German philosopher known for his deep pessimism, Schopenhauer integrated Eastern concepts with Western thought, arguing the universe is driven by a blind, suffering-inducing cosmic energy he called 'Will'."
+	},
+	{
+		"id": "kierkegaard",
+		"birthYear": 1813,
+		"deathYear": 1855,
+		"regions": ["Denmark"],
+		"bio": "The father of Christian existentialism, Kierkegaard wrote extensively under pseudonyms. He focused on individual anxiety, despair, and the difficult 'leap of faith' required for genuine religious commitment."
+	},
+	{
+		"id": "mill",
+		"birthYear": 1806,
+		"deathYear": 1873,
+		"regions": ["England"],
+		"bio": "An advocate of freedom and moral reform, Mill refined utilitarianism by distinguishing higher from lower pleasures and argued passionately for gender equality and individual liberties."
+	},
+	{
+		"id": "marx",
+		"birthYear": 1818,
+		"deathYear": 1883,
+		"regions": ["Germany"],
+		"bio": "A revolutionary scientific thinker, Marx formulated the materialist conception of history, claiming that socioeconomic structures and class struggle dictate cultural ideals, political structures, and conflicts."
+	},
+	{
+		"id": "engels",
+		"birthYear": 1820,
+		"deathYear": 1895,
+		"regions": ["Germany"],
+		"bio": "A German social theorist and businessman, Engels co-authored the Communist Manifesto and financially supported Karl Marx, helping synthesize, publish, and spread modern socialist theories."
+	},
+	{
+		"id": "nietzsche",
+		"birthYear": 1844,
+		"deathYear": 1900,
+		"regions": ["Germany"],
+		"bio": "An iconoclastic moral critic, Nietzsche famously declared 'God is dead.' He attacked traditional moral rules as life-denying constructs, championing individual self-creation and the pursuit of power over self."
+	},
+	{
+		"id": "william-james",
+		"birthYear": 1842,
+		"deathYear": 1910,
+		"regions": ["United States"],
+		"bio": "A prominent philosopher and experimental psychologist, James co-founded Pragmatism, arguing that the truth value of an idea lies in its practical consequences and usefulness to human life."
+	},
+	{
+		"id": "russell",
+		"birthYear": 1872,
+		"deathYear": 1970,
+		"regions": ["England"],
+		"bio": "A co-founder of analytic philosophy, Russell made major contributions to mathematical logic, philosophy of language, and social activism, consistently advocating for secularism and anti-war movements."
+	},
+	{
+		"id": "wittgenstein",
+		"birthYear": 1889,
+		"deathYear": 1951,
+		"regions": ["Austria", "England"],
+		"bio": "One of the twentieth century's leading thinkers, Wittgenstein revolutionized understanding of language. He first analyzed language mathematically, before shifting to viewing language as a public game."
+	},
+	{
+		"id": "heidegger",
+		"birthYear": 1889,
+		"deathYear": 1976,
+		"regions": ["Germany"],
+		"bio": "A highly influential phenomenologist, Heidegger examined the nature of Being itself (Dasein), arguing that human existence must be understood as deeply embedded and temporal."
+	},
+	{
+		"id": "sartre",
+		"birthYear": 1905,
+		"deathYear": 1980,
+		"regions": ["France"],
+		"bio": "The standard-bearer of French existentialism, Sartre argued that 'existence precedes essence', meaning we are radical creators of our own identity and fully responsible for our moral choices."
+	},
+	{
+		"id": "camus",
+		"birthYear": 1913,
+		"deathYear": 1960,
+		"regions": ["Algeria", "France"],
+		"bio": "An Algerian-born writer, Camus formulated Absurdism, asserting that humans search for meaning in an indifferent universe. He urged us to triumphantly accept life's absurdity instead of escaping it."
+	},
+	{
+		"id": "beauvoir",
+		"birthYear": 1908,
+		"deathYear": 1986,
+		"regions": ["France"],
+		"bio": "An existential philosopher and writer, Beauvoir laid foundations for second-wave feminism. Her work argued that 'one is not born, but rather becomes, a woman', examining societal forces of oppression."
+	},
+	{
+		"id": "merleau-ponty",
+		"birthYear": 1908,
+		"deathYear": 1961,
+		"regions": ["France"],
+		"bio": "A prominent early twentieth-century phenomenologist, Merleau-Ponty placed special emphasis on the human body as our primary container for perceiving and engaging with the reality around us."
+	},
+	{
+		"id": "arendt",
+		"birthYear": 1906,
+		"deathYear": 1975,
+		"regions": ["Germany", "United States"],
+		"bio": "A major political theorist, Arendt escaped Nazi Germany to examine issues like total government control (totalitarianism), human civic responsibility, and the nature of evil in modern bureaucratic systems."
+	},
+	{
+		"id": "popper",
+		"birthYear": 1902,
+		"deathYear": 1994,
+		"regions": ["Austria", "England"],
+		"bio": "An influential philosopher of science, Popper introduced the concept of falsifiability, proposing that a theory must be testable and capable of being disproven to count as genuine science."
+	},
+	{
+		"id": "kuhn",
+		"birthYear": 1922,
+		"deathYear": 1996,
+		"regions": ["United States"],
+		"bio": "An American physicist and historian, Kuhn argued that science doesn't progress linearly but rather experiences radical revolutions or shifts in models ('paradigm shifts') inside scientific consensus."
+	},
+	{
+		"id": "rawls",
+		"birthYear": 1921,
+		"deathYear": 2002,
+		"regions": ["United States"],
+		"bio": "A modern liberal political philosopher, Rawls developed theories of social justice centered on fairness, advocating for evaluating rules behind a hypothetical blind starting position ('veil of ignorance')."
+	},
+	{
+		"id": "nozick",
+		"birthYear": 1938,
+		"deathYear": 2002,
+		"regions": ["United States"],
+		"bio": "A political philosopher and libertarian author, Nozick wrote in reaction to Rawls, arguing for a minimal state dedicated strictly to protecting individuals against theft, fraud, and physical force."
+	},
+	{
+		"id": "foucault",
+		"birthYear": 1926,
+		"deathYear": 1984,
+		"regions": ["France"],
+		"bio": "A historian and philosopher, Foucault investigated how power works discretely through societal institutions and language, shaping history and dictating ideas of sanity, sexuality, and criminal justice."
+	},
+	{
+		"id": "singer",
+		"birthYear": 1946,
+		"regions": ["Australia"],
+		"bio": "An influential utilitarian bioethicist, Singer is highly recognized for launching the animal liberation movement and promoting the ethical concept of 'effective altruism' globally."
+	}
+]

@@ -1,0 +1,206 @@
+[
+	{
+		"book": "The Republic",
+		"authors": ["plato"]
+	},
+	{
+		"book": "Meno",
+		"authors": ["plato"]
+	},
+	{
+		"book": "Symposium",
+		"authors": ["plato"]
+	},
+	{
+		"book": "Nicomachean Ethics",
+		"authors": ["aristotle"]
+	},
+	{
+		"book": "Politics",
+		"authors": ["aristotle"]
+	},
+	{
+		"book": "Metaphysics",
+		"authors": ["aristotle"]
+	},
+	{
+		"book": "Meditations",
+		"authors": ["marcus-aurelius"]
+	},
+	{
+		"book": "Enchiridion",
+		"authors": ["epictetus"]
+	},
+	{
+		"book": "Letter to Menoeceus",
+		"authors": ["epicurus"]
+	},
+	{
+		"book": "On the Nature of Things",
+		"authors": ["lucretius"]
+	},
+	{
+		"book": "The Consolation of Philosophy",
+		"authors": ["boethius"]
+	},
+	{
+		"book": "Confessions",
+		"authors": ["augustine"]
+	},
+	{
+		"book": "Proslogion",
+		"authors": ["anselm"]
+	},
+	{
+		"book": "Summa Theologica",
+		"authors": ["aquinas"]
+	},
+	{
+		"book": "The Prince",
+		"authors": ["machiavelli"]
+	},
+	{
+		"book": "Leviathan",
+		"authors": ["hobbes"]
+	},
+	{
+		"book": "Meditations on First Philosophy",
+		"authors": ["descartes"]
+	},
+	{
+		"book": "Ethics",
+		"authors": ["spinoza"]
+	},
+	{
+		"book": "Monadology",
+		"authors": ["leibniz"]
+	},
+	{
+		"book": "An Essay Concerning Human Understanding",
+		"authors": ["locke"]
+	},
+	{
+		"book": "Two Treatises of Government",
+		"authors": ["locke"]
+	},
+	{
+		"book": "An Enquiry Concerning Human Understanding",
+		"authors": ["hume"]
+	},
+	{
+		"book": "The Social Contract",
+		"authors": ["rousseau"]
+	},
+	{
+		"book": "Critique of Pure Reason",
+		"authors": ["kant"]
+	},
+	{
+		"book": "Groundwork of the Metaphysics of Morals",
+		"authors": ["kant"]
+	},
+	{
+		"book": "Phenomenology of Spirit",
+		"authors": ["hegel"]
+	},
+	{
+		"book": "The World as Will and Representation",
+		"authors": ["schopenhauer"]
+	},
+	{
+		"book": "Fear and Trembling",
+		"authors": ["kierkegaard"]
+	},
+	{
+		"book": "On Liberty",
+		"authors": ["mill"]
+	},
+	{
+		"book": "Utilitarianism",
+		"authors": ["mill"]
+	},
+	{
+		"book": "The Communist Manifesto",
+		"authors": ["marx", "engels"]
+	},
+	{
+		"book": "Beyond Good and Evil",
+		"authors": ["nietzsche"]
+	},
+	{
+		"book": "Thus Spoke Zarathustra",
+		"authors": ["nietzsche"]
+	},
+	{
+		"book": "On the Genealogy of Morality",
+		"authors": ["nietzsche"]
+	},
+	{
+		"book": "Pragmatism",
+		"authors": ["william-james"]
+	},
+	{
+		"book": "The Problems of Philosophy",
+		"authors": ["russell"]
+	},
+	{
+		"book": "Tractatus Logico-Philosophicus",
+		"authors": ["wittgenstein"]
+	},
+	{
+		"book": "Philosophical Investigations",
+		"authors": ["wittgenstein"]
+	},
+	{
+		"book": "Being and Time",
+		"authors": ["heidegger"]
+	},
+	{
+		"book": "Existentialism is a Humanism",
+		"authors": ["sartre"]
+	},
+	{
+		"book": "Being and Nothingness",
+		"authors": ["sartre"]
+	},
+	{
+		"book": "The Myth of Sisyphus",
+		"authors": ["camus"]
+	},
+	{
+		"book": "The Second Sex",
+		"authors": ["beauvoir"]
+	},
+	{
+		"book": "Phenomenology of Perception",
+		"authors": ["merleau-ponty"]
+	},
+	{
+		"book": "The Human Condition",
+		"authors": ["arendt"]
+	},
+	{
+		"book": "The Logic of Scientific Discovery",
+		"authors": ["popper"]
+	},
+	{
+		"book": "The Structure of Scientific Revolutions",
+		"authors": ["kuhn"]
+	},
+	{
+		"book": "A Theory of Justice",
+		"authors": ["rawls"]
+	},
+	{
+		"book": "Anarchy, State and Utopia",
+		"authors": ["nozick"]
+	},
+	{
+		"book": "Discipline and Punish",
+		"authors": ["foucault"]
+	},
+	{
+		"book": "Practical Ethics",
+		"authors": ["singer"]
+	}
+]

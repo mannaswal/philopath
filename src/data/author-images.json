@@ -1,0 +1,166 @@
+[
+	{
+		"id": "plato",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Plato_Pio-Clemetino_Inv305.jpg/500px-Plato_Pio-Clemetino_Inv305.jpg"
+	},
+	{
+		"id": "aristotle",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/500px-Aristotle_Altemps_Inv8575.jpg"
+	},
+	{
+		"id": "marcus-aurelius",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Marcus_Aurelius_Glyptothek_M%C3%BCnchen.jpg/500px-Marcus_Aurelius_Glyptothek_M%C3%BCnchen.jpg"
+	},
+	{
+		"id": "epictetus",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Epictetus.jpg/500px-Epictetus.jpg"
+	},
+	{
+		"id": "epicurus",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Epicurus_bust.jpg/500px-Epicurus_bust.jpg"
+	},
+	{
+		"id": "lucretius",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lucretius.jpg/500px-Lucretius.jpg"
+	},
+	{
+		"id": "boethius",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Boethius_imprisoned.jpg/500px-Boethius_imprisoned.jpg"
+	},
+	{
+		"id": "augustine",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Saint_Augustine_by_Philippe_de_Champaigne.jpg/500px-Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+	},
+	{
+		"id": "anselm",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Anselm_of_Canterbury.jpg/500px-Anselm_of_Canterbury.jpg"
+	},
+	{
+		"id": "aquinas",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Thomas_Aquinas_by_Fra_Bartolomeo.jpg/500px-Thomas_Aquinas_by_Fra_Bartolomeo.jpg"
+	},
+	{
+		"id": "machiavelli",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Santi_di_Tito_-_Niccol%C3%B2_Machiavelli.jpg/500px-Santi_di_Tito_-_Niccol%C3%B2_Machiavelli.jpg"
+	},
+	{
+		"id": "hobbes",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Thomas_Hobbes_by_John_Michael_Wright.jpg/500px-Thomas_Hobbes_by_John_Michael_Wright.jpg"
+	},
+	{
+		"id": "descartes",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Frans_Hals_-_Descartes.jpg/500px-Frans_Hals_-_Descartes.jpg"
+	},
+	{
+		"id": "spinoza",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Baruch_de_Spinosa.jpg/500px-Baruch_de_Spinosa.jpg"
+	},
+	{
+		"id": "leibniz",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Gottfried_Wilhelm_Leibniz.jpg/500px-Gottfried_Wilhelm_Leibniz.jpg"
+	},
+	{
+		"id": "locke",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/JohnLocke.png/500px-JohnLocke.png"
+	},
+	{
+		"id": "hume",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allan_Ramsay_-_David_Hume%2C_1766_%28cropped%29.jpg/500px-Allan_Ramsay_-_David_Hume%2C_1766_%28cropped%29.jpg"
+	},
+	{
+		"id": "rousseau",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/500px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg"
+	},
+	{
+		"id": "kant",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Immanuel_Kant_%28portrait%29.jpg/500px-Immanuel_Kant_%28portrait%29.jpg"
+	},
+	{
+		"id": "hegel",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Georg_Wilhelm_Friedrich_Hegel_%281770-1831%29.jpg/500px-Georg_Wilhelm_Friedrich_Hegel_%281770-1831%29.jpg"
+	},
+	{
+		"id": "schopenhauer",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Arthur_Schopenhauer_by_Ludwig_Sigismund_Ruhl.jpg/500px-Arthur_Schopenhauer_by_Ludwig_Sigismund_Ruhl.jpg"
+	},
+	{
+		"id": "kierkegaard",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/S%C3%B8ren_Kierkegaard.jpg/500px-S%C3%B8ren_Kierkegaard.jpg"
+	},
+	{
+		"id": "mill",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/John_Stuart_Mill_by_John_Watkins.jpg/500px-John_Stuart_Mill_by_John_Watkins.jpg"
+	},
+	{
+		"id": "marx",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Karl_Marx_001.jpg/500px-Karl_Marx_001.jpg"
+	},
+	{
+		"id": "engels",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Friedrich_Engels.jpg/500px-Friedrich_Engels.jpg"
+	},
+	{
+		"id": "nietzsche",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nietzsche187a.jpg/500px-Nietzsche187a.jpg"
+	},
+	{
+		"id": "william-james",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/William_James.jpg/500px-William_James.jpg"
+	},
+	{
+		"id": "russell",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Bertrand_Russell_1957.jpg/500px-Bertrand_Russell_1957.jpg"
+	},
+	{
+		"id": "wittgenstein",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ludwig_Wittgenstein.jpg/500px-Ludwig_Wittgenstein.jpg"
+	},
+	{
+		"id": "heidegger",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Martin_Heidegger.jpg/500px-Martin_Heidegger.jpg"
+	},
+	{
+		"id": "sartre",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jean-Paul_Sartre.jpg/500px-Jean-Paul_Sartre.jpg"
+	},
+	{
+		"id": "camus",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Albert_Camus.jpg/500px-Albert_Camus.jpg"
+	},
+	{
+		"id": "beauvoir",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Simone_de_Beauvoir.jpg/500px-Simone_de_Beauvoir.jpg"
+	},
+	{
+		"id": "merleau-ponty",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Maurice_Merleau-Ponty.jpg/500px-Maurice_Merleau-Ponty.jpg"
+	},
+	{
+		"id": "arendt",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hannah_Arendt.jpg/500px-Hannah_Arendt.jpg"
+	},
+	{
+		"id": "popper",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Karl_Popper.jpg/500px-Karl_Popper.jpg"
+	},
+	{
+		"id": "kuhn",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thomas_Kuhn.jpg/500px-Thomas_Kuhn.jpg"
+	},
+	{
+		"id": "rawls",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/John_Rawls.jpg/500px-John_Rawls.jpg"
+	},
+	{
+		"id": "nozick",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Robert_Nozick.jpg/500px-Robert_Nozick.jpg"
+	},
+	{
+		"id": "foucault",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Michel_Foucault.jpg/500px-Michel_Foucault.jpg"
+	},
+	{
+		"id": "singer",
+		"image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peter_Singer.jpg/500px-Peter_Singer.jpg"
+	}
+]
